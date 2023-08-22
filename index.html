@@ -1,0 +1,306 @@
+<html>
+    <head>
+        <title>Hi! I'm Jonathan</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <a href="#first" class="active">Home</a>
+            <a href="#second">About Me</a>
+            <a href="#third">Education</a>
+            <a href="#fourth">Projects</a>
+            <a href="#fifth">Experience</a>
+            <a href="#sixth">Skills</a>
+            <div class="nav-right">
+                <a href="https://www.linkedin.com/in/jonathan-moon-4b5654250/">LinkedIn</a>
+                <a href="https://github.com/jonathan-moon">GitHub</a>
+                <a href="">Resume</a>
+            </div>
+        </nav>
+        <!-- First Page -->
+        <div class="page-container" id="first">
+            <div id="wrapper">
+                <div id="intro-wrapper">
+                    <p class="navb" id="top">Hi there, I'm</p>
+                    <p class="navb" id="middle"><b id="middle-b">Jonathan Moon</b></p>
+                    <p class="navb" id="bottom">CS Student @ Haverford College</p>
+                </div>
+                <div id="me-wrapper">
+                    <img src="maine3.png" alt="A picture of me" id="me">
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Page -->
+        <div class="page-container" id="second">
+            <div class="subtitle-wrapper">
+                <h3 class="subtitle">A Little About Me</h3>
+            </div>
+            <div id="wrapper2">
+                <div id="subcontainer">
+                    <div id="about-me">
+                        <p class= "intro">
+                            I was born and raised in Hillsborough, New Jersey, where I grew up with my older sister, Corey.
+                            Throughout my childhood I always loved competition, whether it be playing Scrabble with my Mom
+                            or playing a variety of sports for my town. When I wasn't competing, I always enjoyed spending 
+                            time with friends, hiking and camping, and relaxing with my dog. 
+                        </p>
+                        <p class="intro">
+                            Not much has changed since then! I am currently a rising Junior at Haverford College, in Ardmore, 
+                            Pennsylvania, where I am a member of the Men's Lacrosse Team. Many of my hobbies have remained the 
+                            same, but I have recently picked up golfing thanks to my parents, and cooking thanks to my roommate!
+                        </p>
+                        <p class="intro">
+                            One passion I discovered in college was computer science. Since I have been introduced to the 
+                            world of coding, I am continuously learning new things. I have recently Co-Founded a startup 
+                            called AthLink, a social networking service for current and alumni student-athletes.
+                            Myself and our developers are working hard to produce a high-quality product that will
+                            give our users an engaging and fullfilling experience- learn more <a href="https://www.joinathlink.com/" id="athlink">here</a>!
+                        </p>
+                        
+                    </div>
+                    <div id="bo">
+                        <div id="prompt">
+                            <p id="bo-message">This is my dog Bo!</p>
+                        </div>
+                        <div id="bo-wrapper">
+                            <img src="bo3.png" alt="A picture of Bo" id="bo-pic">
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Page -->
+        <div class="page-container" id="third">
+            <div class="subtitle-wrapper">
+                <h3 class="subtitle">Education & Academics</h3>
+            </div>
+            <div class="edu-wrapper" id="edu1">
+                <hr>
+                <div class="edu-title" id="title1">
+                    <h5 class="institute">Haverford College</h5>
+                </div>
+                <div class="edu-body" id="body1">
+                    <p class="location">Haverford, Pennsylvania</p>
+                    <p class="body-text">
+                        B.S. in Computer Science | Starter on Men's Varsity Lacrosse Team | Expected graduation May 2025
+                    </p>
+                    <p class="body-text" id="last">Overall GPA: 3.853 | Major GPA: 3.95</p>
+                    <hr class="middle-line">
+                </div>
+            </div>
+            <div class="edu-wrapper" id="edu2">
+                <div class="edu-title" id="title2">
+                    <h5 class="institute">University of Pennsylvania</h5>
+                </div>
+                <div class="edu-body" id="body2">
+                    <p class="location">Philadelphia, Pennsylvania</p>
+                    <p class="body-text">
+                        Accelerated Masters in Engineering: Computer and Information Science - Expected graduation Summer 2026
+                    </p>
+                    <p class="body-text" id="last2">Will begin program in Fall 2023</p>
+                    <hr class="middle-line">
+                </div>
+            </div>
+            <div class="edu-wrapper" id="edu3">
+                <div class="edu-title" id="title3">
+                    <h5 class="institute">Hillsborough High School</h5>
+                </div>
+                <div class="edu-body" id="body3">
+                    <p class="location">Hillsborough, New Jersey</p>
+                    <p class="body-text">
+                        Class of 2025 | 4 Year Varisty Lacrosse Starter | Engineering Club | Donate Life Club
+                    </p>
+                    <p class="body-text" id="last3">GPA: 4.1 | SAT: 1480 | ACT: 32</p>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <!-- Fourth Page -->
+        <div class="page-container" id="fourth">
+            <div class="subtitle-wrapper">
+                <h3 class="subtitle"> My Projects</h3>
+            </div>
+            <div id="project-wrapper">
+                <div id="top-projects">
+                    <div class="project" id="project1">
+                        <h6 class="project-title">Predicting House Pricing with Linear Regression and Adaboost (Python)</h6>
+                        <p class="project-body" id="ml-project">
+                                For my Machine Learning final project, my group implemented Linear Regression and Adaboost 
+                            learning models to predict propety pricing in the Boston area. The goal of this project 
+                            was to a) comapre the accuracies of the two models, and b) evaluate which features regarding 
+                            the properties weighed more in the models' prediction. We found that (not surprisingly) the 
+                            AdaBoost model was much more accurate than Linear Regression (~0.9 and ~0.7, respectively). 
+                            As for the factors most valued by the models, both weighed the average number of rooms highly, 
+                            but differed drastically in their use of other features (or lack thereof).
+                        </p>
+                    </div>
+                    <div class="project" id="project2">
+                        <h6 class="project-title">Big-Int Data Type (C++)</h6>
+                        <p class="project-body">
+                                The Big-Int data type that I created was designed to store large values in C-style arrays,
+                            where each index held 3 digit values at different memory addresses. It was very difficult to 
+                            be able to delete and allocate memory at the appropriate times, especially when implementing 
+                            the copy constructor and = operator. This project drastically improved my knowledge and 
+                            understanding various concepts regarding memory. 
+                        </p>
+                    </div>
+                </div>
+                <div id="bottom-projects">
+                    <div class="project" id="project3">
+                        <h6 class="project-title">WORDLE Recreation (Java)</h6>
+                        <p class="project-body">
+                                For my Data Structures final project, I decided to create a variation of WORDLE. I 
+                            first imported 3 CSV files with 3, 4, and 5 letter words to be randomly selected from 
+                            and guessed. I used a comparison algorithm to provide feedback at each of the users' 
+                            guesses with correct and incorrect letters/ placement of letters. The most difficult 
+                            part was dealing with words with repeated letters. I then implemented a Binary Search 
+                            Tree to implement a leaderboard. 
+                        </p>
+
+                    </div>
+                    <div class="project" id="project4">
+                        <h6 class="project-title">What to Eat (Python)</h6>
+                        <p class="project-body">
+                                In my first personal project, I created a program that would help me with something I struggle
+                            with every day: finding something to eat. It takes in a user-inputted list of available ingredients 
+                            and returns a list of potential meals that can be made with them. It uses a Food class with attributes
+                            that will help in the sorting/comparison algorithm: meal time, meal name, and ingredients attributes. 
+                        </p>
+                    </div>
+                </div>
+
+                
+                
+            </div>
+        </div>
+        <!-- Fifth Page -->
+        <div class="page-container" id="fifth">
+            <div class="subtitle-wrapper">
+                <h3 class="subtitle">Relevant Experience</h3>
+            </div>
+            <div id="exp-wrapper">
+                <div class="exp" id="athlink-exp">
+                    <h6 class="exp-title" id="athlink-title">Co-Founder & CTO | AthLink</h6>
+                    <p class="exp-time">August 2023 to Present</p>
+                    <p class="exp-body" id="athlink-body">
+                        At AthLink, I wear a couple of hats- I'm a co-founder and responsbile 
+                        for the technical side of things, but at a small-scale start-up we share
+                        a lot of responsibilities. Here's a snapshot of what I've been up to:
+                    </p>
+                    <ul id="athlink-list">
+                        <li>
+                            <b class="exp-bullet">Birth of AthLink:</b> I've teamed up with some amazing people to create AthLink, a 
+                            modern SaaS athlete-specific networking platform. We're on a mission to redefine how 
+                            current and former college athletes connect and engage online.
+                        </li>
+                        <li>
+                            <b class="exp-bullet">Behind the Scenes:</b> My days are filled with research, brainstorming, and development. 
+                            Our goal is to deliver an effictive and enjoyable application to the hundreds of people
+                            on our waitlist. 
+                        </li>
+                        <li>
+                            <b class="exp-bullet">Tech Choices:</b> Our team has decided on React Native for our app- it's brilliant for cross-platform
+                            development, which allows us to reach as many users as possible for our initial release. And to 
+                            power everything behind the scenes we're using Google Firebase.
+                        </li>
+                        <li>
+                            <b class="exp-bullet">Leading the Group:</b> I have the privilege of working with a fantastic team of app 
+                            developers. Together, we dive deep into codes, bugs, and all things tech, 
+                            ensuring AthLink remains top-notch.
+                        </li>
+                        <li>
+                            <b class="exp-bullet">From Idea to Launch:</b> Overseeing a project from the first spark of an idea to its launch 
+                            is quite a ride! And I'm proud to help steer that ship at AthLink, and excited to see what is to come.
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Sixth Page -->
+        <div class="page-container" id="sixth">
+            <div class="subtitle-wrapper">
+                <h3 class="subtitle" id="skills-sub">Skills</h3>
+            </div>
+            <div id="bar">
+                <div id="skills-container">
+                    <div id="inner-container">
+                        <div class="skills" id="coding">
+                            <h6 class="skills-sub">Programming Languages</h6>
+                            <p class="skill-body">
+                                Proficient:
+                            </p>
+                            <ul id="prof-prog-list">
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>JavaScript</li>
+                                <li>C/C++</li>
+                                <li>HTML/CSS</li>
+                                <li>LaTeX</li>
+                            </ul>
+                            <p class="skill-body">
+                                Basic:
+                            </p>
+                            <ul id="basic-prog-list">
+                                <li>UNIX</li>
+                                <li>R</li>
+                            </ul>
+                        </div>
+                        <div class="skills" id="technical">
+                            <h6 class="skills-sub">Frameworks</h6>
+                            <p class="skill-body" id="frame-prof">
+                                Proficient: 
+                            </p>
+                            <ul>
+                                <li>NumPy</li>
+                                <li>Pandas</li>
+                                <li>Scikit-learn</li>
+                                <li>React Native</li>
+                                <li>Firebase</li>
+                            </ul>
+                            <p class="skill-body">
+                                Basic: 
+                            </p>
+                            <ul>
+                                <li>PyTorch</li>
+                                <li>TensorFlow</li>
+                                <li>Keras</li>
+                            </ul>
+                        </div>
+                        <div class="skills" id="ide">
+                            <h6 class="skills-sub">Integrated Development Environments</h6>
+                            <ul id="ide-list">
+                                <li>PyCharm</li>
+                                <li>IntelliJ</li>
+                                <li>CLion</li>
+                                <li>VsCode</li>
+                            </ul>
+                        </div>
+                        <div class="skills" id="personal">
+                            <h6 class="skills-sub">Personal</h6>
+                            
+                            <ul id="personal-list">
+                                <li>Leadership</li>
+                                <li>Problem Solver</li>
+                                <li>Clear Communicator</li>
+                                <li>Team Oriented</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>
+                Reach out: <br>
+                <a href="mailto:moonjonathans@gmail.com"> moonjonathans@gmail.com</a> | (609) 613 6002
+            </p>
+        </footer>
+    </body>
+
+</html>
